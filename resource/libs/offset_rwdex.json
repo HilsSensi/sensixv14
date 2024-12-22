@@ -1,6 +1,6 @@
 {
   "removeSensivity": "cmd window size reset;cmd window density reset" ,
-  "tweak": "cmd power set-fixed-performance-mode-enabled true",
+  "javaLangHeadtrick": "cmd appops set com.dts.freefireth ACTIVATE_FOCUS_MODE allow;cmd appops set com.dts.freefiremax ACTIVATE_FOCUS_MODE allow;settings put global disable_gl_renderer 1",
   "head": "device_config put game_overlay com.dts.freefiremax mode=2,downscaleFactor=1.7:mode=3,downscaleFactor=0.8;device_config put game_overlay com.dts.freefireth mode=2,downscaleFactor=1.7:mode=3,downscaleFactor=0.8",
   "touch": "null"
 }
