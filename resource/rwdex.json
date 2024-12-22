@@ -9,6 +9,6 @@
   "speedModeDesks": "Menstabilkan FPS dan meminimalkan penurunan FPS tanpa mengubah pengaturan.",
   "maximumSensivitys": "Maximum Sensivity",
   "maximumSensivityDesks": "Ini akan memaksa perangkat saat bermain freefire mendapatkan sensitivitas tingkat maksimum",
-  "controlScript": "Dynamic control script",
-  "controlScriptDesk": "Fitur ini berfungsi untuk mengontrol perangkat demi mendapatkan performa yang tinggi"
+  "controlScripts": "Dynamic control script",
+  "controlScriptDesks": "Fitur ini berfungsi untuk mengontrol perangkat demi mendapatkan performa yang tinggi"
 }
