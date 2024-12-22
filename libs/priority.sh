@@ -1,5 +1,5 @@
 #!/system/bin/sh
-if [ "$(basename "$0")" != "rwdex" ]; then
+if [ "$(basename "$0")" != "priority" ]; then
 	exit 1
 fi
 
