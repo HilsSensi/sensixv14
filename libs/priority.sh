@@ -1,6 +1,10 @@
-#!/system/bin/sh
-if [ "$(basename "$0")" != "priority" ]; then
-	exit 1
+#!/bin/bash
+priority_value=$(settings get global allowed_priority)
+
+if [ "$priority_value" = "null" ] || [ -z "$priority_value" ]; then
+    exit 1
+else
+    exit 0
 fi
 
 t_priorities() {
