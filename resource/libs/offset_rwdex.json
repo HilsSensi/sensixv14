@@ -1,6 +1,6 @@
 {
   "removeSensivity": "cmd window size reset;cmd window density reset" ,
-  "javaLangHeadtrick": "cmd appops set com.dts.freefireth ACTIVATE_FOCUS_MODE allow;cmd appops set com.dts.freefiremax ACTIVATE_FOCUS_MODE allow;settings put global disable_gl_renderer 1",
-  "javaLangRemoveHeadtrick": "settings delete global disable_gl_renderer",
+  "javaLangHeadtrick": "settings put global disable_gl_renderer 1,settings put global collect_stats 0",
+  "javaLangRemoveHeadtrick": "settings delete global disable_gl_renderer;settings delete global collect_stats;",
   "touch": "null"
 }
