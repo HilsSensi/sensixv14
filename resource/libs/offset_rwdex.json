@@ -5,5 +5,7 @@
     "libsLangOpt": "settings put secure location_mode 0;device_config put battery adaptive_battery_management_enabled false;device_config put performance input_latency_reduction_enabled true;pm clear com.miui.powerkeeper",
     "libsLangOptRemove": "settings delete secure location_mode;device_config delete battery adaptive_battery_management_enabled;device_config delete performance input_latency_reduction_enabled",
     "fpsJavaOpt": "settings put system peak_refresh_rate 120;settings put system user_refresh_rate 120;settings put system thermal_limit_refresh_rate 120",
-    "fpsJavaOptRemove": "settings delete system peak_refresh_rate;settings delete system user_refresh_rate;settings delete system thermal_limit_refresh_rate"
+    "fpsJavaOptRemove": "settings delete system peak_refresh_rate;settings delete system user_refresh_rate;settings delete system thermal_limit_refresh_rate",
+    "sensivityMaximumLang": "settings put global force_gpu_rendering 1;settings delete system pointer_speed",
+    "sensivityMaximumRemoveLang": "settings delete global force_gpu_rendering"
 }
