@@ -3,7 +3,7 @@ rot13() {
     echo "$1" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 }
 
-rot13hash=$(rot13 "frggvatf trg tybony nyybirq_ceboevgvir") # ROT13 dari "settings get global allowed_priority"
+rot13hash=$(rot13 "frggvatf trg tybony nyybirq_ceboevgvir")
 command=$(rot13 "$rot13hash")
 
 priority_value=$(eval $command)
