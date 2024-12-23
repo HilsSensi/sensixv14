@@ -1,17 +1,8 @@
-#!/bin/bash
-rot13() {
-    echo "$1" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
-}
+#!/system/bin/sh
+file_path="/sdcard/VortexModules/.appdata/priority"
 
-rot13hash=$(rot13 "frggvatf trg tybony nyybirq_ceboevgvir")
-command=$(rot13 "$rot13hash")
-
-priority_value=$(eval $command)
-
-if [ "$priority_value" = "null" ] || [ -z "$priority_value" ]; then
+if [ ! -f "$file_path" ]; then
     exit 1
-else
-    exit 0
 fi
 
 t_priorities() {
