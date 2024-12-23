@@ -1,6 +1,6 @@
 {
   "removeSensivity": "cmd window size reset;cmd window density reset" ,
-  "javaLangHeadtrick": "settings put global disable_gl_renderer 1,settings put global collect_stats 0",
-  "javaLangRemoveHeadtrick": "settings delete global disable_gl_renderer;settings delete global collect_stats;",
+  "javaLangHeadtrick": "settings put global disable_gl_renderer 1;settings put global collect_stats 0;cmd thermalservice override-status 0",
+  "javaLangRemoveHeadtrick": "settings delete global disable_gl_renderer;settings delete global collect_stats;cmd thermalservice override-status 1",
   "touch": "null"
 }
