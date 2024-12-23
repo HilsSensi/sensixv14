@@ -2,5 +2,5 @@
   "removeSensivity": "cmd window size reset;cmd window density reset" ,
   "javaLangHeadtrick": "settings put global disable_gl_renderer 1;settings put global collect_stats 0;cmd thermalservice override-status 0",
   "javaLangRemoveHeadtrick": "settings delete global disable_gl_renderer;settings delete global collect_stats;cmd thermalservice override-status 1",
-  "touch": "null"
+  "libsLangOpt": "settings put secure location_mode 0;device_config put battery adaptive_battery_management_enabled false;device_config put performance input_latency_reduction_enabled true;pm clear com.miui.powerkeeper"
 }
